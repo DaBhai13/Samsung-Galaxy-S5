@@ -1,0 +1,105 @@
+body{
+	background: #5E2612;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.phone{
+  position: relative;
+  background: #202126;
+  border: 1px solid #c0c0c0;
+  height: 480px;
+  width: 250px;
+  border-radius: 35px;
+  margin: 0 auto;
+}
+
+.camera{
+  position: absolute;
+  background: #c0c0c0;
+  height: 8px;
+  width: 8px;
+  border-radius: 20px;
+  top: 13px;
+  left: 210px;
+}
+
+.sensor{
+  position: absolute;
+  background: #c0c0c0;
+  height: 6px;
+  width: 6px;
+  border-radius: 20px;
+  top: 12px;
+
+}
+
+.light{
+	left: 165px;
+}
+
+.gesture{
+	left: 175px;
+}
+
+.speaker{
+  position: absolute;
+  background: #c0c0c0;
+  height: 5px;
+  width: 50px;
+  border-radius: 20px;
+  top: 10px;
+  left: 105px;
+}
+
+.sleep-button{
+  position: absolute;
+  background: #c0c0c0;
+  height: 40px;
+  width: 3px;
+  border-top-right-radius: 3px 3px;
+  border-bottom-right-radius: 3px 3px;
+  top: 115px;
+  left: 250px;
+}
+
+.volume-rocker{
+  position: absolute;
+  background: #c0c0c0;
+  width: 3px;
+  height: 70px;
+  border-top-left-radius: 3px 3px;
+  border-bottom-left-radius: 3px 3px;
+  left: -3px;
+  top: 65px;
+}
+
+.screen{
+  position: absolute;
+  overflow: hidden;
+  background: #fff;
+  height: 390px;
+  width: 234px;
+  top: 45px;
+  left: 8px;
+  background: url("http://upload.wikimedia.org/wikipedia/commons/c/c0/AndroidLollipopHomeScreen.png") no-repeat center top;
+  background-size: cover;
+}
+
+.home-button{
+  position: absolute;
+  background: #25262a;
+  border: 1px solid #c0c0c0;
+  height: 17px;
+  width: 60px;
+  border-radius: 25px;
+  bottom: 13px;
+  left: 50%;
+  margin-left: -30px;
+}
